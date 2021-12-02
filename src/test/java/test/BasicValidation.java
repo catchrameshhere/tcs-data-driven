@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class BasicValidation extends Base{
   @Test
   public void titleValdation() {
-	  String expectedTitle = "Facebook – log in or sign up";
+	  String expectedTitle ="Facebook â€“ log in or sign up";
 	  String actualTitle = driver.getTitle();
 	  
 	  Reporter.log("Expected page title = " + expectedTitle);
